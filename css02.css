@@ -6,7 +6,7 @@ div[name=name1]{
     background-color: orange;   
 }
 
-/* div요소들 중 name 속성값이 name1이 "포함"되어있는 요소(키워드는 안됨) */
+/* div요소들 중 name 속성값이 name1이 "포함"도어있는 요소(키워드는 안됨) */
 div[name~=name1]{
     background-color: yellow;
 }
@@ -98,7 +98,7 @@ input[type=checkbox]:checked{
 }
 
 input[type=checkbox]:checked+label{
-    font-size:25px;
+    font-size:20px;
 }
 
 input[name^=user]:focus{

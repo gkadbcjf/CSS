@@ -1,0 +1,54 @@
+form,input,button,a{
+    box-sizing: border-box;
+}
+#content2-right-login{
+    height: 20%;
+    width: 100%;
+    border: 1px solid rgb(184, 180, 180);
+    margin-bottom: 10px;
+}
+
+#content2-right-login{width: 100%;}
+#lo-top{
+    height: 80%;
+}
+#lo-bottom{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#id-form{
+    height: 100%;
+    width: 100%;
+}
+#id-form>div{
+    height: 100%;
+    float: left;}
+#lo-input{width: 70%;}
+#lo-submit{width: 30%}
+
+#lo-input>div{
+    height: 50%;
+    width: 100%;
+}
+#lo-submit>button{
+    height: 100%;
+    width: 100%;
+}
+#userid,#userpwd{
+    height: 50%; 
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        body{
+           margin: 0;
+        }
+        .navigation{
+            background-color: rgb(29, 29, 31);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 500px;
+          
+        }
+        a,i{
+            color:white;
+            text-decoration: none;
+        }
+
+        ul,li{
+            list-style-type: none;
+        
+        }
+
+        #navi-logo{
+           font-size: 24px;
+        }
+        #navi-menu{
+            padding-right: 15px;
+        }
+        #navi-menu>ul{
+           display: flex;
+           left: 0;
+        }
+
+        #navi-menu>ul>li{
+            padding: 10px;
+        }
+        #navi-menu>ul a{
+            margin: 10px 10px;
+        }
+       #navi-link{
+        list-style: none;
+         display: flex;
+         padding: 5px;
+       }
+       #navi-link li{
+        padding: 8px 10px;
+       }
+       #navi-menu>ul>li:hover{
+        background-color: rgb(230, 193, 126);
+        border-radius: 15px;
+       }
+       
+    </style>
+   <script src="https://kit.fontawesome.com/d66e5a12d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <nav class="navigation">
+        <div id="navi-logo">
+            <i class="fa-solid fa-shield-halved"></i>
+           <a href="">Drawcoding</a> 
+        </div>
+        <div id="navi-menu">
+            <ul>
+                <li><a href="">수강신청</a></li>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">게시판가져오기</a></li>
+                <li><a href="">탄약반</a></li>
+            </ul>
+        </div>
+        <div id="navi-link">
+           <li><a href=""><i class="fa-solid fa-gear"></i></a></li> 
+           <li><a href=""><i class="fa-solid fa-bug"></i></a></li> 
+        </div>
+       
+   </nav>
+
+</body>
+</html>
+
+

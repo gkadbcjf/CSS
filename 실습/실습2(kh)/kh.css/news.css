@@ -1,0 +1,18 @@
+#content2-left-news{
+    height: 10%;
+    width: calc(100% - 10px);
+    border: 1px solid rgb(184, 180, 180);
+    display: flex;
+}
+
+#content2-left-news>div{
+    height: 100%;
+    /* float: left; */
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 10px;
+}
+
+#title{
+    width: 80%;
+}

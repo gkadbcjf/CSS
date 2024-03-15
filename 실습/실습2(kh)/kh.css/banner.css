@@ -1,0 +1,12 @@
+
+#content2-left-banner{
+    height: 20%;
+    width: calc(100% - 10px);
+    border: 1px solid rgb(184, 180, 180);
+    margin-bottom:10px;
+}
+#content2-left-banner>img{
+    height:100%;
+    width: 100%;
+}
+

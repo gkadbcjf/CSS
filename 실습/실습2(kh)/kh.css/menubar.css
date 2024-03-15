@@ -1,0 +1,38 @@
+div,li,ul{
+    box-sizing: border-box;
+}
+
+li,ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#content1> content1{width: 100%; }
+
+#content1{
+    height: 70px; 
+    display: flex;
+    border: 1px solid rgb(184, 180, 180);
+    /* margin-top:20px; */
+}
+#content1>ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+}
+#content1>ul>li{
+    float: left;
+    font-weight: 800;
+    color:rgb(104, 103, 103);
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content1{
+    margin-bottom: 10px;
+   }

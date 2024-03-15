@@ -1,0 +1,11 @@
+#content2-right-under{
+    width: 100%;
+    height: calc(80% - 10px);
+    border: 1px solid rgb(184, 180, 180);
+}
+
+
+#content2-right-under>img{
+    height: 100%;
+    width: 100%;
+}

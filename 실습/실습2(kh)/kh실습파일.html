@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  /* #wrap{
+        height: 900px;
+        width: 1000px;
+        margin: 0 auto; 
+        padding: 10px 100px;
+        border: 1px solid black;
+       }   */
+       #wrap{
+        height: 1000px;
+        width: 1000px;
+        margin: 0 auto;
+        padding: 10px 100px;
+       }
+
+       #content{
+        margin-top: 10px;
+        width: 100%;
+        height: 60%;
+        margin-bottom: 10px;
+       }
+
+       #content2{
+        height:calc(100% - 80px);
+        width: 100%;
+        margin-bottom: 10px;
+       }
+       #content2>div{
+        float: left;
+        height: 100%;
+       }
+       #content2-left{
+        width: 70%;
+       }
+
+       #content2-right{
+        width: 30%;
+       
+       }
+       #footer{
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgb(184, 180, 180);
+       }
+       #footer>div{
+        width: 100%;
+       }
+
+    </style>
+    <link rel="stylesheet" href="./kh.css/search.css">
+    <link rel="stylesheet" href="./kh.css/menubar.css">
+    <link rel="stylesheet" href="./kh.css/banner.css">
+    <link rel="stylesheet" href="./kh.css/login.css">
+    <link rel="stylesheet" href="./kh.css/news.css">
+    <link rel="stylesheet" href="./kh.css/car.css">
+    <link rel="stylesheet" href="./kh.css/shopping.css">
+    <link rel="stylesheet" href="./kh.css/footer.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="header_1">
+                <img src="./images/logo.PNG" alt="">
+            </div>
+            <div id="header_2">
+                <div id="search">
+                    <input type="text",id="search-input" placeholder="검색어를 선택하세요">
+                    <button>
+                        <img src="./images/search.png" alt="검색이미지"></button>
+                </div>
+            </div>
+            <div id="header_3"></div>
+        </div>
+
+        <div id="content">
+            <div id="content1">
+                <!-- <div id="menu"> -->
+                    <ul>
+                        <li><a href=""></a>교육과정</li>
+                        <li><a href=""></a>교육원소개</li>
+                        <li><a href=""></a>취업지원센터</li>
+                        <li><a href=""></a>신학연계</li>
+                        <li><a href=""></a>상담센터</li>
+                    </ul>
+                <!-- </div> -->
+                </div>
+            <div id="content2">
+                
+                <div id="content2-left">
+                    <div id="content2-left-banner">
+                        <img src="./images/banner.PNG" alt="banner" id="bn">
+                    </div>
+                
+                    <div id="content2-left-news">
+                        <div id="title">안녕하세요 여기는 공지사항 제목이 들어오는 자리입니다.</div>
+                        <div id="kind">
+                            <a href="#">경제</a>
+                            <a href="#">연예</a>
+                            <a href="#">사회</a>
+                        </div>
+
+                    </div>
+
+                    <div id="content2-left-car">
+                        <img src="./images/car.PNG" alt="자동차광고">
+                    </div>
+                    
+                </div>
+             
+                <div id="content2-right">
+                    <div id="content2-right-login">
+                        <div id="lo-top">
+                            <fonm id="id-form">
+                                <div id="lo-input">
+                                    <input type="text"id="userid" placeholder="아이디 입력">
+                                    <input type="password"id="userpwd" placeholder="비밀번호 입력">
+                                </div>
+
+                                <div id="lo-submit">
+                                    <button>로그인</button>
+                                </div>
+                            </fonm>
+                        </div>
+                        <div id="lo-bottom">
+                            <a href="#">아이디</a><span>|</span>
+                            <a href="#">비밀번호찾기</a><span>|</span>
+                            <a href="#">회원가입</a>
+                        </div>
+                    </div>
+
+                    <div id="content2-right-under">
+                        <img src="./images/shopping.PNG" alt="쇼핑">
+                    </div>
+                </div>
+
+
+            
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer-wrap">
+            <div id="footer-top">
+                <a href=""> 이용약관 </a> <span>|</span>
+                <a href=""> 개인정보취급방침 </a> <span>|</span>
+                <a href=""> 인재채용 </a> <span>|</span>
+                <a href=""> 고객센터 </a>
+            </div>
+            <div id="middle">강남지원 1관: 서울특별시 강남구 테헤란로14길 6 남도빌딩 2F,3F,4F,5F,6F<br>
+                            강남지원 2관: 서울특별시 강남구 테헤란로10길 9 그랑프리 빌딩 4F,5F,7F <br>
+                            강남지원 3관: 서울특별시 강남구 테헤란로130길 호산빌딩 5F,6F</div>
+            <div id="footer-bottom">
+                Copyright © 1998-2024 KH Information Educational Institute All Right Reserved
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
